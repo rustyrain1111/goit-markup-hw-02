@@ -134,6 +134,12 @@ button {
 .benefits-block-list {
 }
 
+.benefits-block-item {
+}
+
+.h3-benefits-block {
+}
+
 .text-benefits-block {
 }
 
@@ -154,6 +160,9 @@ button {
 
 .h3-our-team {
   text-align: center;
+}
+
+.our-team-item {
 }
 
 .text-our-team {
@@ -181,9 +190,10 @@ button {
 }
 
 .footer-page-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
