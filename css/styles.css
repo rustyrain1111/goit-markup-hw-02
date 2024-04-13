@@ -1,89 +1,132 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  /* margin: auto; */
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-inline-start: 0;
+  color: #2e2f42;
 }
 
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-top: 188px;
-  margin-bottom: 292px;
 }
 
-/* nav-section */
-
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 24px;
-  margin-bottom: 24px;
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-}
-
-.nav-list {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
+h3 {
   font-weight: 500;
-  font-size: 16px;
-  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.nav-link {
-  margin-right: 40px;
+p {
+  color: #434455;
 }
 
-.address-block {
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
+ul,
+ol {
+  list-style-type: none;
 }
 
-.adress-link {
-  margin-right: 40px;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.logo {
+button {
+  cursor: pointer;
+}
+
+/* ============== MENU ==============  */
+
+.page-logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-  text-decoration: none;
-  margin-right: 76px;
 }
 
-.logo-span {
+.logo-color {
   color: #4d5ae5;
 }
 
-.navbar-section {
-  margin-right: 156px;
-  margin-left: 156px;
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-/* Order section */
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
 
-.order-section {
-  background-color: #2e2f42;
-  width: auto;
-  height: 600px;
+.address-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+/* ============== HERO ============== */
+
+.order-service {
+  background: #2e2f42;
+}
+
+.button-order-service {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+/* ============== OUR TEAM ============== */
+
+.our-team-block {
+  background: #f4f4fd;
+}
+
+.h3-our-team {
+  text-align: center;
+}
+
+.text-our-team {
+  text-align: center;
+}
+
+/* ============== OUR PORTFOLIO  ============== */
+
+.our-portfolio-block {
+}
+
+.our-portfolio-item {
+}
+
+/* ============== FOOTER  ============== */
+
+.footer-block {
+  background: #2e2f42;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
