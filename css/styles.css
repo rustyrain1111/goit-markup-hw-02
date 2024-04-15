@@ -4,15 +4,6 @@ body {
   color: #434455;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-}
-
 h2 {
   font-weight: 700;
   font-size: 36px;
@@ -99,14 +90,17 @@ button {
 
 /* ============== HERO ============== */
 
-.main {
-}
-
 .order-service {
   background: #2e2f42;
 }
 
-.h1-order-service {
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 
 .button-order-service {
@@ -128,24 +122,24 @@ button {
 .benefits-block {
 }
 
-.h2-Benefits {
+.benefits-title {
 }
 
-.benefits-block-list {
+.benefits-list {
 }
 
-.benefits-block-item {
+.benefits-item {
 }
 
-.h3-benefits-block {
+.benefits-list-title {
 }
 
-.text-benefits-block {
+.benefits-text {
 }
 
 /* ============== OUR TEAM ============== */
 
-.h2-our-team {
+.our-team-title {
   line-height: 1.11;
   text-transform: capitalize;
 }
@@ -158,14 +152,14 @@ button {
   background: #f4f4fd;
 }
 
-.h3-our-team {
+.our-team-list-title {
   text-align: center;
 }
 
 .our-team-item {
 }
 
-.text-our-team {
+.our-team-text {
   text-align: center;
 }
 
@@ -174,16 +168,19 @@ button {
 .our-portfolio-block {
 }
 
+.our-portfolio-title {
+}
+
 .our-portfolio-list {
 }
 
 .our-portfolio-item {
 }
 
-.h3-our-portfolio {
+.our-portfolio-list-title {
 }
 
-.text-our-portfolio {
+.our-portfolio-text {
 }
 
 /* ============== FOOTER  ============== */
