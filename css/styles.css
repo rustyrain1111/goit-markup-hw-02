@@ -132,12 +132,21 @@ button {
 }
 
 .benefits-list-title {
+  line-height: 1.2;
 }
 
 .benefits-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* ============== OUR TEAM ============== */
+
+.our-team-block {
+  background: #f4f4fd;
+}
 
 .our-team-title {
   line-height: 1.11;
@@ -145,18 +154,15 @@ button {
 }
 
 .our-team-list {
-  background-color: #ffffff;
-}
-
-.our-team-block {
-  background: #f4f4fd;
 }
 
 .our-team-list-title {
   text-align: center;
+  line-height: 1.2;
 }
 
 .our-team-item {
+  background-color: #ffffff;
 }
 
 .our-team-text {
@@ -169,6 +175,7 @@ button {
 }
 
 .our-portfolio-title {
+  line-height: 1.11;
 }
 
 .our-portfolio-list {
@@ -178,6 +185,7 @@ button {
 }
 
 .our-portfolio-list-title {
+  line-height: 1.2;
 }
 
 .our-portfolio-text {
